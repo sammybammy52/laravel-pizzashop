@@ -4,10 +4,10 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+            <div class="card bg-dark text-light">
+                <div class="card-header bg-dark">{{ __('Dashboard') }}</div>
 
-                <div class="card-body">
+                <div class="card-body bg-dark">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}

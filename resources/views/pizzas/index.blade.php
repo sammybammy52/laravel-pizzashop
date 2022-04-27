@@ -1,5 +1,5 @@
 
-@extends('layouts.layout')
+@extends('layouts.app')
 
 @section('content')
 
@@ -17,7 +17,7 @@
         <div>
         {{$i->name}} and type is {{$i->type}} and base is {{$i->base}}
 
-        <button class="btn btn-primary" style="background: rgb(104, 69, 69); border:none"> {{$i->name}} button </button>
+        <button class="btn btn-primary"> {{$i->name}} button </button>
         </div>
     @endforeach
 
