@@ -103,7 +103,7 @@
                                         @foreach(session('cart') as $id => $details)
                                             <div class="row cart-detail">
                                                 <div class="col-lg-4 col-sm-4 col-4 cart-detail-img">
-                                                    <img src="{{ url('storage/images/'.$details['image']) }}"  />
+                                                    <img src="{{ url('images/'.$details['image']) }}"  />
                                                 </div>
                                                 <div class="col-lg-8 col-sm-8 col-8 cart-detail-product">
                                                     <p>{{ $details['name'] }}</p>
