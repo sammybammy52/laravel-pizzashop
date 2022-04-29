@@ -1,0 +1,2 @@
+heroku file system sucks so im going to set up some external file storage later. but for now ill just put the images of the pizzas on the frontend and link them.
+when i want to move them to a paid server, ill just create a symlink and get images from storage/images which is in public folder of course
