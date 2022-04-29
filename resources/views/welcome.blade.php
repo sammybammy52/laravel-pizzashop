@@ -36,11 +36,10 @@
                 <div class="container">
                     <div class="row slider-text align-items-center" data-scrollax-parent="true">
 
-                        <div class="col-md-6 col-sm-12 order-md-last ftco-animate">
-                            <span class="subheading">Crunchy</span>
-                            <h1 class="mb-4">Italian Pizza</h1>
-                            <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the
-                                necessary regelialia.</p>
+                        <div class="col-md-6 col-sm-12 order-md-last ftco-animate text-justify">
+                            <h3 class="subheading text-primary" style="text-shadow: 0.2px 0.2px #000000;">Welcome</h3>
+                            <h1 class="mb-4">We Make The best Pizzas in Nigeria </h1>
+                            <p class="mb-4 mb-md-5 text-light">All Deliveries are also within an hour</p>
                             <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#"
                                     class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
                         </div>
