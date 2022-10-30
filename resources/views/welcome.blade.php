@@ -25,7 +25,7 @@
 
                         </div>
                         <div class="col-md-6 ftco-animate mt-4 mb-4">
-                            <img src="images/bg_1.png" class="img-fluid" alt="">
+                            <img src="images/bg_1.webp" class="img-fluid" alt="">
                         </div>
 
                     </div>
@@ -44,7 +44,7 @@
                                     class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
                         </div>
                         <div class="col-md-6 ftco-animate mt-4 mb-4">
-                            <img src="images/bg_2.png" class="img-fluid" alt="">
+                            <img src="images/bg_2.webp" class="img-fluid" alt="">
                         </div>
 
                     </div>
@@ -207,7 +207,10 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="row">
-                        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                        <div classpublic function cart()
+                        {
+                            return view('pizzas.cart');
+                        }="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
                             <div class="block-18 text-center">
                                 <div class="text">
                                     <div class="icon"><span class="flaticon-pizza-1"></span></div>
@@ -215,7 +218,10 @@
                                     <span>Pizza Branches</span>
                                 </div>
                             </div>
-                        </div>
+                        </div>public function cart()
+                        {
+                            return view('pizzas.cart');
+                        }
                         <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
                             <div class="block-18 text-center">
                                 <div class="text">
@@ -254,7 +260,7 @@
 
 
 
-    <div class="ftco-appointment">
+    <div class="ftco-appointment" id="contact">
         <div class="overlay"></div>
         <div class="container-wrap">
             <div class="row no-gutters d-md-flex align-items-center">

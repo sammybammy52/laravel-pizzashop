@@ -19,6 +19,11 @@ class PizzaController extends Controller
         ]);
     }
 
+    public function about()
+    {
+        return view('pizzas.about');
+    }
+
     public function cart()
     {
         return view('pizzas.cart');

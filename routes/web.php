@@ -26,6 +26,7 @@ Route::get('/pizzas', [PizzaController::class, 'index']);
 Route::get('/create', [PizzaController::class, 'create']);
 
 Route::get('/pizzas/menu', [PizzaController::class, 'menu']);
+Route::get('/about', [PizzaController::class, 'about']);
 
 Route::post('/pizzas', [PizzaController::class, 'store']);
 
