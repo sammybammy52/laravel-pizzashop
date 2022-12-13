@@ -207,10 +207,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="row">
-                        <div classpublic function cart()
-                        {
-                            return view('pizzas.cart');
-                        }="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
                             <div class="block-18 text-center">
                                 <div class="text">
                                     <div class="icon"><span class="flaticon-pizza-1"></span></div>
@@ -218,10 +215,7 @@
                                     <span>Pizza Branches</span>
                                 </div>
                             </div>
-                        </div>public function cart()
-                        {
-                            return view('pizzas.cart');
-                        }
+                        </div>
                         <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
                             <div class="block-18 text-center">
                                 <div class="text">
